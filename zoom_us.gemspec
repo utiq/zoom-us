@@ -13,13 +13,13 @@ Gem::Specification.new do |gem|
   gem.email         = ['cesar@gutierrez.pe']
   gem.description   = %q{A Ruby wrapper for zoom.us API v2}
   gem.summary       = %q{zoom.us API wrapper}
-  gem.homepage      = 'https://github.com/utiq/zoom-us'
+  gem.homepage      = 'https://github.com/utiq/zoom_us'
   gem.licenses      = ['MIT']
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = 'zoom-us'
+  gem.name          = 'zoom_us'
   gem.require_paths = ['lib']
   gem.version       = '0.1.0'
 end

@@ -1,4 +1,4 @@
-module Zoomus
+module ZoomUs
   class Utils
 
     class << self
@@ -39,7 +39,7 @@ module Zoomus
               response = send(m, *args)
               Utils.raise_if_error!(response)
             rescue Net::OpenTimeout, Net::ReadTimeout, Timeout::Error => _e
-              raise ::Zoomus::GatewayTimeout.new
+              raise ::ZoomUs::GatewayTimeout.new
             end
           end
         end

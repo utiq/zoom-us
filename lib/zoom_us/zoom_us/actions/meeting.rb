@@ -1,4 +1,4 @@
-module Zoomus
+module ZoomUs
   module Actions
     module Meeting
 

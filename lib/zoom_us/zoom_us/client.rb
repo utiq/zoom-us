@@ -1,7 +1,7 @@
 require 'httparty'
 require 'json'
 
-module Zoomus
+module ZoomUs
   class Client
 
     include HTTParty
