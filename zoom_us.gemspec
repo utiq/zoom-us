@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'zoom_us'
   gem.require_paths = ['lib']
-  gem.version       = '0.1.0'
+  gem.version       = '0.1.1'
 end
